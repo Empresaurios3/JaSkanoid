@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-12-01" view-index="0" gantt-divider-location="517" resource-divider-location="485" version="2.8.10" locale="es">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="322" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="41" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="133" order="2"/>
+        <option id="taskLabelUp" value="resources"/>
+        <option id="taskLabelLeft" value="id"/>
+        <option id="color.recent"><![CDATA[#6666ff #66ff66 #0099cc #ffcccc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="301" order="0"/>
+        <field id="1" name="Función" width="178" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Estructuración del Trabajo" color="#0099cc" meeting="false" project="true" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-02" thirdDate-constraint="1" expand="true">
+            <task id="3" name="Análisis de trabajo" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Asignación de roles" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-02" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Estudio de tareas a realizar" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Reparto de tareas según roles estabecidos" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Creación TRELLO" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Creación del grupo en Teams" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Creación de cuenta de correo grupal" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="15" name="Registro de TRELLO" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="Registro de GITHUB" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-03" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="16" name="Planificación del proyecto" color="#66ff66" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true">
+            <task id="18" name="Creación de plantilla para documentación en WORD" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Creación Diagrama Gantt" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="21" name="Documentación de acceso a herramientas" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+            <task id="46" name="Creación de directorios en GITHUB" color="#6666ff" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2020-03-02" thirdDate-constraint="0" expand="true"/>
+            <task id="47" name="Subida de documentación a GITHUB" meeting="false" start="2019-12-05" duration="1" complete="0" expand="true"/>
+            <task id="22" name="Workforce Excel" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="25" name="Análisis" meeting="false" start="2019-12-05" duration="1" complete="0" expand="true"/>
+        <task id="26" name="Diseño" meeting="false" start="2019-12-05" duration="1" complete="0" expand="true"/>
+        <task id="27" name="Codificación" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Prueba" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Implantación" color="#8cb6ce" meeting="false" start="2019-12-05" duration="1" complete="0" thirdDate="2019-12-05" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="David Romero" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Judith Andrés" function="SoftwareDevelopment:4" contacts="" phone=""/>
+        <resource id="2" name="Pedro de Soto" function="SoftwareDevelopment:2" contacts="" phone=""/>
+        <resource id="3" name="Óscar Hernández" function="SoftwareDevelopment:3" contacts="" phone=""/>
+        <resource id="4" name="Cristian Fernández" function="SoftwareDevelopment:5" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="SoftwareDevelopment:4" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="1" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="1" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="48" resource-id="1" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="15" resource-id="2" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="30" resource-id="4" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="4" function="SoftwareDevelopment:5" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
